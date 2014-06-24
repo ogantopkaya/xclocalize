@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+
+require 'optparse'
+require 'xclocalize'
+
+OptionParser.new do |opts|
+  opts.banner = "Usage: xclocalize [options]"
+
+  opts.on_tail('-h', '--help', 'Show this message') { puts opts; exit }
+  opts.on_tail("-v", "--version", "Show version") { puts XCLocalize::VERSION; exit }
+
+  if STDIN.tty?
+    puts opts.help
+    exit 1
+  end
+end

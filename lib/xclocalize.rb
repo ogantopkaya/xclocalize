@@ -1,5 +1,5 @@
 require "xclocalize/version"
 
-module Xclocalize
+module XCLocalize
   # Your code goes here...
 end

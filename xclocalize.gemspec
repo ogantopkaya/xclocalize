@@ -5,11 +5,11 @@ require 'xclocalize/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "xclocalize"
-  spec.version       = Xclocalize::VERSION
+  spec.version       = XCLocalize::VERSION
   spec.authors       = ["Ogan Topkaya"]
   spec.email         = ["otopkaya@me.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Short Summary of gem}
+  spec.description   = %q{Longer Description of gem}
   spec.homepage      = ""
   spec.license       = "MIT"
 
