@@ -8,9 +8,11 @@ OptionParser.new do |opts|
 
   opts.on_tail('-h', '--help', 'Show this message') { puts opts; exit }
   opts.on_tail("-v", "--version", "Show version") { puts XCLocalize::VERSION; exit }
+  opts.parse!
 
   if STDIN.tty?
     puts opts.help
     exit 1
   end
+
 end
