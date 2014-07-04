@@ -1,0 +1,325 @@
+/*
+ Localizable.strings
+ Okey101Plus
+ 
+ Created by Volkan Demircin on 5/13/13.
+ Copyright (c) 2013 Peak Games. All rights reserved.
+ */
+
+//System
+"LOCALE_CODE" = "en_US";
+
+// Intro View
+"LOADING_MESSAGE" = "CONNECTING. PLEASE WAIT.";
+"LOGIN_ERRORCODE_MESSAGE" = "Failed to connect server, please retry again.";
+
+//Main Menu View
+"USERS_ARE_ONLINE" = "Online Players";
+"MUSIC_SETTINGS_TEXT" = "If you want to listen music while playing, click to the listen music button below.";
+
+"NAVIGATION_PLAY_NOW" = "PLAY NOW";
+"NAVIGATION_CREATE_TABLE" = "CREATE TABLE";
+"NAVIGATION_FEEDBACK" = "FEEDBACK";
+"NAVIGATION_TOP25" = "TOP 25";
+"NAVIGATION_SEARCH_ROOM" = "SEARCH ROOM";
+"NAVIGATION_HOW_TO_PLAY" = "HOW TO PLAY";
+"NAVIGATION_PLAY_WITH_FRIENDS" = "PLAY WITH FRIENDS";
+
+"NEED_MORE_CHIPS" = "You need more chips to play.";
+"NEED_MORE_CHIPS_FOR_PLAY_WITH_FRIENDS" = "You need to have at least %@ Chips to create this table type.";
+
+//Lobby View
+"LOBBY_NEW_TABLE" = "NEW TABLE";
+
+"LOBBY_PLAYER_NUMBER" = "Players";
+
+"LOBBY_CHIPS_UNSUFFICIENT" = "NOT ENOUGH CHIPS!";
+"LOBBY_CHIPS_UNSUFFICIENT_POPUP" = "YOU MUST HAVE AT LEAST %@ CHIPS IN ORDER TO PLAY ON THIS TABLE. YOU CAN BUY CHIPS TO PLAY ON THIS TABLE NOW.";
+
+"LOBBY_BEGINNER_ROOM_POPUP" = "%@ Room is very easy for your Rummy Skills.\nLet's find equal opponents...";
+"LOBBY_VIP_NOT_ENOUGH_LEVEL" = "You need to be at least level %d to play in VIP Club.";
+"LOBBY_CANNOT_JOIN_ROOM" = "YOU CAN NOT ENTER THE ROOM.";
+"LOBBY_NOT_ENOUGH_CHIPS" = "At least %@ Chips needed.";
+
+
+"LOBBY_TABLE_FULL" = "The table you want to join has been closed.";
+
+"LOBBY_ROOM_NAME_13" = "Beginners";
+"LOBBY_ROOM_NAME_15" = "Rookies";
+"LOBBY_ROOM_NAME_16" = "Amateurs";
+"LOBBY_ROOM_NAME_17" = "Sharks";
+"LOBBY_ROOM_NAME_18" = "Pro";
+"LOBBY_ROOM_NAME_19" = "Stars";
+"LOBBY_ROOM_NAME_21" = "High Rollers";
+"LOBBY_ROOM_NAME_23" = "Elite";
+"LOBBY_ROOM_NAME_25" = "VIP Club";
+
+//Open Table Labels
+
+"OPEN_TABLE_MESSAGE" = "PLEASE SELECT THE TABLE OPTIONS";
+
+"OPEN_TABLE_PRIVATE_MESSAGE" = "CREATE TABLE";
+"OPEN_TABLE_PRIVATE_BET_RANGE_TITLE" = "Please enter the table bet";
+"OPEN_TABLE_PRIVATE_BET_RANGE_MESSAGE" = "Bet range %@-%@";
+"OPEN_TABLE_PUBLIC" = "PUBLIC";
+"OPEN_TABLE_PRIVATE" = "PRIVATE TABLE";
+"OPEN_TABLE_TABLE_TYPE" = "Table Type";
+"OPEN_TABLE_TIME" = "Time Per Turn";
+"OPEN_TABLE_TIME_60" = "60 sec";
+"OPEN_TABLE_TIME_45" = "45 sec";
+"OPEN_TABLE_TIME_90" = "90 sec";
+
+//Private Table Messages
+"PRIVATE_TABLE_JOIN_REQUEST" = "Your friend, %@, would like to join your table.";
+"PRIVATE_TABLE_JOIN_WAITING_RESPONSE" = "Please wait to be approved by your friend";
+"PRIVATE_TABLE_JOIN_RESPONSE_REJECTED" = "%@ rejected your request.";
+
+//Popup Messages
+"FACEBOOK_ERROR" = "There was a problem with the Facebook connection, please try again..";
+"FACEBOOK_CHECK_SETTINGS" = "Please check your Facebook settings\n and then try again.";
+"FACEBOOK_CHECK_PERMISSIONS" = "Please check your Facebook settings\n of your device for Rummy Plus\n permissions and try again.";
+
+"LOGIN_TIMEOUT_ERROR" = "Your connection has timed out, please try again.";
+
+"DAILY_POPUP_TEXT" = "DAILY BONUS CHIPS";
+"DAILY_POPUP_TEXT_1" = "YOU CAN GET MORE BY VISITING EVERYDAY.";
+"DAILY_POPUP_TEXT_FACEBOOK" = "YOU CAN GET MORE BY CONNECTING WITH FACEBOOK.";
+
+"INTERNET_LOST_MESSAGE" = "There was a problem with your Internet connection.";
+"CONNECTION_LOST_MESSAGE" = "There was a problem with your connection to the server, please try again later.";
+"SOCKET_LOST_MESSAGE" = "There was a problem with your connection.";
+
+"REMOVE_FRIEND_QUESTION" = "Do you want to remove your friend from the list?";
+
+"GAME_OVER_POPUP_RESULT" = "GAME RESULT";
+
+"PURCHASE_TIME_MESSAGE" = "Would you like to add +15 seconds to your current turn for %@ chips?";
+"PURCHASE_TIME_FREE_MESSAGE" = "Would you like to add +15 seconds to your current turn for free?";
+"LAST_FREE_TIME_PURCHASE_MESSAGE" = "Your are going to use the last time for FREE. \nThe next usages cost chips up to game bet.";
+
+// Support View
+"SUPPORT_DESCRIPTION" = "YOU CAN REPORT US THE ISSUES YOU HAVE EXPERIENCED OR SHARE YOUR THOUGHTS.";
+"SUPPORT_SEND_ERROR" = "Suggestion wasn't sent due to an error,  please try again.";
+"SUPPORT_SEND_SUCCESS" = "Your suggestion has been sent successfully.";
+"SUPPORT_EMAIL" = "E-mail";
+
+// Loading View Text
+"LOADING_CIRCLE_TEXT" = "LOADING";
+
+// Friends View
+"ONLINE" = "Online";
+"TIME_AGO" = "%@ ago";
+"YEARS" = "%d years";
+"MONTHS" = "%d months";
+"DAYS" = "%d days";
+"HOURS" = "%d hours";
+"MINUTES" = "%d minutes";
+"FRIENDS_PLACEHOLDER" = "If you connect with your Facebook account, you will be able to play with your friends and have more fun while getting more chips everyday.";
+"FRIEND_INVITATION_TITLE" = "Send Invitation";
+"FRIEND_INVITATION_MESSAGE" = "Let's Play Rummy Plus!";
+
+//Friend Popups
+"ADD_FRIEND_POPUP_MESSAGE" = "Do you want to add as friend?";
+"ADD_FRIEND_ACCEPTED" = "%@ accepted your friend request.";
+"ADD_FRIEND_REJECTED" = "%@ rejected your friend request.";
+"ALREADY_FRIENDS_MESSAGE" = "You are already friends with this user.";
+"FRIEND_REQUEST_INCOMING" = "Do you want to add as friend?";
+
+//In App Purchase
+"IN_APP_PURCHASE_FAILED" = "Purchase failed, please try again later.";
+"IN_APP_PURCHASE_SUCCEEDED" = "Purchase successful. Good luck with your chips.";
+"IN_APP_PURCHASE_FRAUD_VERIFICATION_FAILED" = "We are sorry, your daily purchase limit is exhausted. Since the transaction isn't complete, you won't be charged. You can try completing the transaction 24 hours later.\n\nIf you think you experience this problem due to daily transaction limit, contact us through suggestions.";
+
+// Game View
+"MENU_CLOSE" = "Close";
+"MENU_LEAVE_TABLE" = "Leave the table";
+"MENU_CHAT" = "Chat";
+"MENU_SOUND_ON" = "Sound Off";
+"MENU_SOUND_OFF" = "Sound On";
+"MENU_MAGNIFIER_ON" = "Magnifier Off";
+"MENU_MAGNIFIER_OFF" = "Magnifier On";
+"MENU_HELP_POPUP_ON" = "Help Off";
+"MENU_HELP_POPUP_OFF" = "Help On";
+
+"GAME_WILL_START" = " SECONDS TO START THE GAME";
+"LEAVE_TABLE_WARNING" = "If you leave the table now, you will lose the %@ chips you have deposited. Do you wish to proceed?";
+
+"NOTIFICATION_SPECTATOR_JOINED" = "joined the table as a spectator.";
+"NOTIFICATION_SLOW_CONNECTION" = "Your connection has slowed down.";
+
+"NOTIFICATION_MELD_NOT_YOUR_TURN" = "It is not your turn.";
+"NOTIFICATION_MELD_NOT_ENOUGH_TILES" = "You need to open at least 30 points worth of tiles.";
+"NOTIFICATION_MELD_NOT_OPENED_ANY_TILE" = "You did not open any tiles.";
+"NOTIFICATION_MELD_NOT_VALID_GRID" = "Grid invalid.";
+"NOTIFICATION_MELD_CANNOT_MOVE_BEFORE_OPENINING_HAND" = "Cannot move before opening hand.";
+"NOTIFICATION_AUTOMELD_NOT_ENOUGH_SPACE" = "Not enough space on grid.";
+"NOTIFICATION_CANNOT_MAKE_FURTHER_MOVE" = "You can play with tiles next turn.";
+
+"NOTIFICATION_NOT_ENOUGH_CHIPS_FOR_TIME_PURCHASE" = "You don't have enough chips.";
+"NOTIFICATION_PLAYER_PURCHASED_TIME" = "%@, spent %@ to add extra +15 seconds.";
+"NOTIFICATION_PLAYER_PURCHASED_TIME_FOR_FREE" = "%@, add free extra +15 seconds.";
+
+"HELP_POPUP_NOT_YOUR_TURN" = "It is not your turn.\nPlease remember; Your turn is finished by either drawing a tile or melding your tile(s) then clicking DONE button.";
+"HELP_POPUP_NOT_VALID_GRID" = "Your sets are invalid.";
+"HELP_POPUP_NOT_VALID_GRID_SERIAL" = "Example of a valid run";
+"HELP_POPUP_NOT_VALID_GRID_GROUP" = "Example of a valid group";
+"HELP_POPUP_FIRST_MOVE" = "You can't manipulate tiles during your initial meld.";
+"HELP_POPUP_MELD_NOT_ENOUGH_TILE" = "Initial meld must have 30 or more points in one or more sets.";
+
+"WINNER" = "WINNER";
+
+"KICKED_FROM_TABLE_NO_PLAY" = "YOU WERE REMOVED FROM THE TABLE FOR NOT PLAYING FOR 3 CONSECUTIVE TURNS.";
+"KICKED_FROM_TABLE_NO_CHIPS" = "YOU WERE REMOVED FROM THE TABLE BECAUSE OF INSUFFICIENT CHIPS.";
+
+//TimePurchase
+
+"SEC" = "sec";
+
+// TimeBonus
+
+"COLLECT_TIME_BONUS" = "Collect";
+"TIME_BONUS_COLLECTED" = "%@ chips added to your account";
+"TIME_BONUS_ERROR" =  "In order to win the %@ prize, continue playing on the table and claim the bonus when the timer resets.";
+
+//GameStartPopup Messages
+
+"GAME_START_WAITING_FOR_PLAYERS" = "Waiting for other players to join the table.";
+"GAME_START_IS_WAITING" = "Game is starting!";
+"GAME_START_IS_WAITING_OWNER" = "You can start the game soon.";
+"GAME_START_WILL_START_SOON_OWNER" = "Game will start soon, you can start the game.";
+"GAME_START_WILL_START_SOON" = "Game is about to start!";
+"GAME_START_CAN_START" = "You are the table owner. You can start the game.";
+"GAME_START_WAITING_FOR_OWNER" = "Waiting for table owner to start the game.";
+
+//Game Invitations
+"GAME_INVITATION_FRIENDS" = "FRIENDS";
+"GAME_INVITATION_ROOM_USERS" = "USERS";
+"GAME_INVITATION_INVITE" = "INVITE";
+"GAME_INVITATION_INVITATION_TITLE" = "TABLE INVITATION";
+"GAME_INVITATION_INVITATION_TITLE_PRIVATE" = "PLAY WITH FRIENDS";
+"GAME_INVITATION_BET" = "TABLE BET";
+"GAME_INVITATION_PLAYERS" = "Players";
+
+// Rating
+"RATING_TITLE" = "10.000 Chips Bonus!";
+"RATING_MESSAGE" = "If you enjoy playing Rummy Plus, could you spare a few minutes to comment on it?";
+"RATING_RATE" = "Give 5 Stars";
+"RATING_REMIND_LATER" = "Remind me later";
+"RATING_DONT_RATE" = "I don't want free chips";
+
+// Button titles
+"CONNECT_W_FACEBOOK" = "LOGIN WITH FACEBOOK";
+"CONNECT_AS_GUEST" = "GUEST LOGIN";
+"LOGOUT_FACEBOOK" = "FACEBOOK LOGOUT";
+"JOIN" = "JOIN";
+"INVITE" = "INVITE";
+"SIT" = " SIT";
+"UNDO" = "UNDO";
+"AUTO_MELD" = "AUTO MELD";
+"GET_TILE" = "GET TILE";
+"READY" = "READY";
+"BACK"  = "BACK";
+"ADD_TIME" = "ADD TIME";
+"ADD_TIME_FOR_X_CHIPS" = "for %@ chips";
+
+"SELECT_LANG" = "PLEASE SELECT LANGUAGE";
+"TURKISH" = "Türkçe";
+"ENGLISH" = "English";
+"FRENCH" = "Français";
+"SPANISH" = "Español";
+"GERMAN" = "Deutsch";
+"ROMANIAN" = "Română";
+
+// Chat Messages
+"CHAT_SERI_LUTFEN" = "Fast Please.";
+"CHAT_BOL_SANSLAR" = "Good Luck.";
+
+// Chat View
+"SPECTATORS" = "Spectators";
+
+//Ban Messages
+"chat_disabled" = "You are not allowed to send chat messages because of \"[reason]\" until [suspend_till]";
+"temporary_ban" = "You are not allowed to play until [suspend_till] because of \"[reason]\"";
+"permanent_ban" = "You have been banned permanently because of \"[reason]\".";
+
+"curse" = "Inappropriate language";
+"profile_picture" = "Inappropriate profile picture";
+"profile_name" = "Inappropriate profile name";
+"cheat" = "Cheating";
+"company" = "Colluded in the game";
+"same_account" = "Playing with multiple accounts";
+"fraud" = "Scamming";
+"chip_transfer" = "Chip transfer";
+"racizm" = "Racism";
+"other" = "Violating game rules";
+
+//Server Messages
+"schedule_restart" = "Servers will be restarted in [time] minutes.";
+
+//Mobile Messages
+"message_text" = "The new version of Rummy Plus is released. Update to continue playing.";
+"button_text" = "Update";
+"button_text_2" = "Close";
+
+// Help View Texts
+"HELP_TEXT_1_1" = "A run is a set of three or more consecutive numbers, which are all of the same color.";
+"HELP_TEXT_1_2" = "A group is a set of either three or four tiles of the same number in different colors.";
+"HELP_TEXT_1_3" = "No Way!";
+
+"HELP_TEXT_2_1" = "For your first move, you must play a set with a value of at least 30 points.";
+
+"HELP_TEXT_3_1" = "Once a winner has been declared, the losing players must add up the values of the tiles remaining in their racks.";
+"HELP_TEXT_3_2" = "Winner";
+"HELP_TEXT_3_3" = "Penalty point 30";
+"HELP_TEXT_4_1" = "A set of tiles which are organized as series or groups can be moved by keeping the right side of the set tapped.";
+"HELP_TEXT_5_1" = "In Friends section, you can follow your friends, join their table and play with them.";
+"HELP_TEXT_6_1" = "Recommended Facebook friends, which appear on the Friends section can be called to game by tapping to \"Invite\" button.";
+
+"HELP_TEXT_7_1" = "Enjoy Rummy Plus!";
+
+"MENU_TITLE" = "PLAY!";
+
+
+// Join Table Error Messages
+
+"ERROR_TABLE_CLOSED"             = "Game has started. Please try to sit another table.";
+"ERROR_JOIN_TABLE"               = "There was a problem joining the table. Please try again.";
+"ERROR_TABLE_INSUFFICIENT_CHIPS" = "Not Enough Chips.";
+"ERROR_TABLE_ALREADY_SITTING"    = "You have already sit a table.";
+"ERROR_TABLE_SAME_IP"            = "You can't sit a table. Others have same IP with you.";
+"ERROR_TABLE_INSUFFICIENT_CHIPS_FOR_ROOM" = "You can't sit at this table because you're below the minimum chip limit of this room. ";
+
+"ADVANTAGE_PACK" = "BEST PRICE";
+
+// SETTINGS
+"LANGUAGE"  = "LANGUAGE";
+"CHAT" = "CHAT";
+"INVITATION" = "TABLE INVITE";
+
+// Chat Button Titles
+"CLOSE" = "CLOSE";
+"FAST_PLEASE" = "FAST PLEASE";
+"GOOD_LUCK" = "GOOD LUCK";
+"SEND" = "SEND";
+
+// View Titles
+"SETTINGS_TITLE" = "SETTINGS";
+"MUSIC_TITLE" = "MUSIC";
+"FRIENDS_TITLE" = "FRIENDS";
+"BUY_CHIPS_TITLE" = "BUY CHIPS";
+
+"BUY_CHIPS_HEADER" = "BUY CHIPS";
+"HOW_TO_PLAY_HEADER" = "HOW TO PLAY";
+"TOP_25_HEADER" = "TOP 25";
+
+// Popup Buttons
+"POPUP_BUTTON_BUYCHIPS" = "BUY\nCHIPS";
+"POPUP_BUTTON_LEAVETABLE" = "LEAVE\nTABLE";
+"POPUP_BUTTON_RECONNECT" = "RECONNECT";
+"POPUP_BUTTON_STARTNEWGAME" = "CONTINUE";
+
+// Level Up Popup
+"LEVEL_UP_POPUP_HEADER" = "NEW LEVEL!";
+"LEVEL_UP_POPUP_EXPLANATION" = "You reached next level";
+"LEVEL_UP_POPUP_BONUS_HEADER" = "NEW LEVEL BONUS:";
+"LEVEL_UP_POPUP_BONUS_VALUE" = "%i CHIPS";
